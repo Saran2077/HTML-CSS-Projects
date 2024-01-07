@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Karla&family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Exo+2&family=Karla&family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&display=swap');
+
+
+/* Link = https://play.teleporthq.io/projects/template-12-modified-f6v9wa?source=templates&_gl=1*b8b38e*_ga*NDk5ODU2NDA0LjE3MDQ2MzYwNjk.*_ga_HYBRNL4BBC*MTcwNDY0MDU2MC4yLjEuMTcwNDY0MjE5OC42MC4wLjA. */
+/* Pre requirtes */
+.content {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 32px;
+    color: #FFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN  */
+.banner {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/banner.jpg);
+}
+
+img {
+
+}
+/* NAV BAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 10% 40px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFF;
+}
+
+/* Banner-center */
+.h1 {
+    font-size: 90px;
+    color: #FFFF;
+    margin-bottom: 30px;
+}
+
+.p {
+    color: #FFFF;
+}
+
+.banner-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Search */
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 15%;
+    background-color: #FFFF;
+    border: 2px solid #949AA5;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.bx-search {
+    /* font-size: 30px;
+    font-weight: 300; */
+    object-fit: cover;
+
+}
+
+.icons {
+    display: inline;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #FAD87A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    padding: 0 20px;
+    border-right: 1px solid  #949AA5;
+}
+
+#size {
+    border: none;
+}
+
+/* Feature */
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #397B53;
+    /* padding: 20px 50px; */
+}
+
+.f-box {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ftext {
+    padding: 0 20px 0 0;
+}
+
+.p {
+    line-height: 27px;
+}
+
+.f-box i {
+    color: #FAD87A;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.main .header {
+    font-size: 60px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.main .content {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(53, 43, 42);
+    padding-bottom: 50px;
+}
+
+.main .options {
+    display: flex;
+
+}
+
+.options :first-child {
+    background-color: #FAD87A;
+}
+
+.option {
+    padding:20px;
+    margin: 10px;
+    border: 1px solid #D9D9D9;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 10%;
+  }
+
+.grid-items {
+    margin: 10%;
+    width: 20vw;
+}
+
+ .grid-items img {
+    height: 15vw;
+    width: 25vw;
+    object-fit: cover;
+}
+
+.grid-items .header {
+    color: black;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.grid-items .guide {
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.desc {
+    color: #616161;
+}
+
+/* Pages */
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page:nth-child(2){
+    background-color: #FAD87A;
+    border: none;
+}
+
+.page {
+    padding: 20px 25px;
+    margin: 5% 10px;
+    border: 1px solid #595959;
+    border-radius: 60px;
+}
+
+
+/* Testimonials */
+.testimonials {
+    background-color: #F8F0E9;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials .center {
+    width: 80vw;
+}
+
+.testimonials .title {
+    color: #352B2A;
+    font-family: Karla;
+    padding-bottom: 60px;
+}
+
+.testimonials .quote {
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.testimonials .customer-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials img {
+    height: 70px;
+    width:70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonials .details{
+    display: flex;
+    align-items: center;
+}
+
+.testimonials img {
+    margin-right: 20px
+}
+
+.testimonials .buttons {
+    display: flex;
+}
+
+.testimonials .button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #352B2A;
+    margin-right: 20px;
+}
+
+.testimonials i {
+    font-size: 50px;
+    color: #352B2A;
+}
+
+/* Find a local guide */
+
+.find-guide {
+    padding: 3%;
+    text-align: center;
+    background-color: #397B53;
+}
+
+.find-guide .header {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.find-guide .content {
+    color: white;
+    margin: 10px 10%;
+}
+
+.locate {
+    padding: 15px 20px;
+    margin-top: 2%;
+    background-color: #FAD87A;
+    border-radius: 50px;
+    border: none;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #352B2A;
+    padding-bottom: 7%;
+    padding-top: 2%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: Karla;
+    color: white;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.footer .header {
+    font: Karla;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.footer .content {
+    color: white;
+    padding: 10px;
+}
+
+.footer .credits {
+    width: 30vw;
+}
